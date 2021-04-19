@@ -51,28 +51,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      {/* card three */}
-      {/* <div className='m-2 font-sans leading-normal transform hover:scale-105'>
-        <div className='max-w-lg shadow-2xl rounded overflow-hidden m-4 sm:flex bg-blue-100'>
-          <div className='h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden'>
-            <img src={code} alt='Pic of code' />
-          </div>
-
-          <div className='px-6 py-4'>
-            <h2 className='mb-2 font-black'>Demand Report</h2>
-            <p className='mb-4 text-grey-dark text-sm'>
-              A preview feature that opens a popup and renders the users'
-              created web page as it should look live.
-            </p>
-
-            <Link to='/demand-report'>
-              <button className='py-3 px-6 text-black font-bold rounded-full mt-1 mb-2 bg-green-200 hover:bg-green-500'>
-                Take a look!
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

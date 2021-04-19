@@ -10,7 +10,6 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Signin from './components/SignIn/SignIn';
 import SystemLogs from './Pages/System Logs/SystemLogs';
 import PopupPreview from './Pages/Popup Preview/PopupPreview';
-import DemandReport from './Pages/Demand Report/demandReport';
 import ScrollToTop from './components/ScrollToTop';
 import Criteria from './Pages/Criteria/criteria';
 
@@ -88,7 +87,6 @@ class App extends Component {
                 />
                 <Route exact path='/system-logs' component={SystemLogs} />
                 <Route exact path='/popup-preview' component={PopupPreview} />
-                <Route exact path='/demand-report' component={DemandReport} />
                 <Route exact path='/criteria' component={Criteria} />
               </Switch>
               <Footer />
