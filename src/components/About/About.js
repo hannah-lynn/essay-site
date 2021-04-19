@@ -17,9 +17,9 @@ const About = () => {
           After teaching myself some of the basics of HTML5, CSS3 and JavaScript
           over a few months I started the Software Development Technician
           Apprenticeship with Pecometer in October 2020. Here I work frontend
-          and backend, using mySQL, Typescript, and the backend is an in house
-          framework Pecots. This portfolio site is built using React with
-          Tailwind CSS.
+          and backend, using mySQL, Angular, Typescript, and the backend is an
+          in house framework Pecots. This portfolio site is built using React
+          with Tailwind CSS.
         </p>
       </div>
     </div>
