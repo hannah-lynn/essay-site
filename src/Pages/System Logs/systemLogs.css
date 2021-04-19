@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+.main-title {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: grey;
+    /* old IE */
+    background-color: grey;
+    /* Modern Browsers */
+    width: 50%;
+    /* align-self: center; */
+    margin: auto;
+}
+
+.react-tabs__tab--selected {
+    color: rgba(249, 168, 212) !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.6);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .grow:hover {
+        transform: scale(2.2);
+    }
+}

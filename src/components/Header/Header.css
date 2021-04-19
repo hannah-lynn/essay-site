@@ -1,0 +1,163 @@
+
+body {
+    background-color: #e7f4f7;
+
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(palm.jpg);
+    z-index: -1;
+
+}
+
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -120px 60px;
+    }
+}
+
+.modal {
+    width: 420px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.message {
+    font-size: 1.1rem;
+    margin-bottom: 1.6rem;
+    margin-top: 0;
+}
+
+.btn {
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    background: white;
+    padding: 0.3rem 3.4rem;
+    border: 3px solid black;
+    margin-right: 2.6rem;
+    box-shadow: 0 0 0 black;
+    transition: all 0.2s;
+    border-radius: 40px;
+}
+
+.btn:last-child {
+    margin: 0;
+}
+
+.btn:hover {
+    box-shadow: 0.4rem 0.4rem 0 black;
+    transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+    box-shadow: 0 0 0 black;
+    transform: translate(0, 0);
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+@keyframes text2 {
+
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+
+    60%,
+    90% {
+        width: 15em;
+    }
+}
+
+@keyframes text1 {
+
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+
+    10%,
+    40% {
+        width: 14.5em;
+    }
+}
+
+.text_1 {
+    animation: text1;
+}
+
+.text_2 {
+    animation: text2;
+}
+
+.text_1,
+.text_2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: steps(15, end);
+    animation-iteration-count: infinite;
+}
+
+.text_1::after,
+.text_2::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+
+    .modal {
+        width: 300px;
+        height: 35%;
+        overflow: hidden;
+    }
+
+    .btn {
+        color: inherit;
+        font-family: inherit;
+        font-size: 1rem;
+        background: white;
+        padding: 0.3rem 2rem;
+        border: 3px solid black;
+        box-shadow: 0 0 0 black;
+        transition: all 0.2s;
+        border-radius: 40px;
+        width: 40%;
+    }
+
+    .message {
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+        max-width: 90vw;
+    }
+
+}
