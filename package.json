@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://hannahl87.github.io/portfolio/public/index.html",
+  "homepage": "https://hannahl87.github.io/portfolio",
   "dependencies": {
     "@craco/craco": "^6.1.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
