@@ -1,6 +1,6 @@
 # portfolio
 
-username: hello \
+username: hello
 password: world
 
 Password protected portfolio website to display essays and link to criteria using react tabs
