@@ -1,7 +1,5 @@
 import React from 'react';
-import { Route, Router, Switch } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import Criteria from '../../Pages/Criteria/criteria';
 import './nav.css';
 
 const Nav = ({ toggle, onRouteChange, isSignedIn }) => {
@@ -38,11 +36,11 @@ const Nav = ({ toggle, onRouteChange, isSignedIn }) => {
           Criteria
         </Link>
       </div>
-      <div onClick={() => onRouteChange('signin')} className='pt-5 pr-4'>
+      <div onClick={() => onRouteChange('signin')} className='pr-4'>
         <Link to='/' className='hover:text-green-500' id='signOutLg'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            class='h-6 w-6'
+            className='h-6 w-6'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'

@@ -36,9 +36,6 @@ class Signin extends React.Component {
         if (data === 'success') {
           this.props.onRouteChange('home');
         }
-        if (data === 'success') {
-          this.props.onRouteChange('home');
-        }
         if (data === 'error logging in') {
           document.getElementById('error').classList.remove('hidden');
           document.getElementById('sign-in').innerText = 'Sign In!';
@@ -49,7 +46,6 @@ class Signin extends React.Component {
   };
 
   render() {
-    const { onRouteChange } = this.props;
     return (
       <div
         className='bg-pink-100 py-20 grid h-full place-items-center'
