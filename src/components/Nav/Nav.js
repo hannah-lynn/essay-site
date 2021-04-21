@@ -26,7 +26,7 @@ const Nav = ({ onRouteChange }) => {
         <Link className='p-4 hover:text-green-500 flex-row' to='/#home'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-10 w-10'
+            className='h-10 w-10 text-gray-600'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -42,7 +42,7 @@ const Nav = ({ onRouteChange }) => {
         <Link className='p-4 hover:text-green-500 flex-row' to='/#about'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-10 w-10'
+            className='h-10 w-10 text-gray-600'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -58,7 +58,7 @@ const Nav = ({ onRouteChange }) => {
         <Link className='p-4 hover:text-green-500 flex-row' to='/#portfolio'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-10 w-10'
+            className='h-10 w-10 text-gray-600'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -74,7 +74,7 @@ const Nav = ({ onRouteChange }) => {
         <Link className='p-4 hover:text-green-500 flex-row' to='/criteria'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-10 w-10'
+            className='h-10 w-10 text-gray-600'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -108,7 +108,7 @@ const Nav = ({ onRouteChange }) => {
         <Link to='/' className='hover:text-green-500' id='signOutLg'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-10 w-10'
+            className='h-10 w-10 text-gray-600'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
