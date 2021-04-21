@@ -13,7 +13,7 @@ const SystemLogs = () => {
   return (
     <div className='flex flex-col ml-9 mr-9 py-20 font-mono mb-10 lg:mx-40'>
       <h2 className='main-title flex flex-col justify-center items-center text-lg my-20'>
-        Popup Preview
+        System Logs
       </h2>
       <Tabs>
         <TabList>
