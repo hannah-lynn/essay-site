@@ -15,11 +15,10 @@ const About = () => {
         />
         <p className='w-6/6 md:ml-20 md:mr-20 lg:mt-8 md:mt-0'>
           After teaching myself some of the basics of HTML5, CSS3 and JavaScript
-          over a few months I started the Software Development Technician
-          Apprenticeship with Pecometer in October 2020. Here I work frontend
-          and backend, using mySQL, Angular, Typescript, and the backend is an
-          in house framework Pecots. This portfolio site is built using React
-          with Tailwind CSS.
+          over a few months I started Web Development role in October 2020. Here
+          I work frontend and backend, using mySQL, Angular, Typescript, and the
+          backend is an in house framework. This portfolio site is built using
+          React with Tailwind CSS.
         </p>
       </div>
     </div>
