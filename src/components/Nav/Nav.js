@@ -23,7 +23,10 @@ const Nav = ({ onRouteChange }) => {
       role='navigation'
     >
       <div className={`${isMobile ? '' : 'hidden'} flex pr-8`}>
-        <Link className='p-4 hover:text-green-500 flex-row' to='/#home'>
+        <Link
+          className='p-4 hover:text-green-500 flex-row'
+          to='/portfolio/#home'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
@@ -91,13 +94,13 @@ const Nav = ({ onRouteChange }) => {
         </Link>
       </div>
       <div className={`${isMobile ? 'hidden' : ''} pr-8`}>
-        <Link className='p-4 hover:text-green-500' to='/#home'>
+        <Link className='p-4 hover:text-green-500' to='/portfolio/#home'>
           Home
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/#about'>
+        <Link className='p-4 hover:text-green-500' to='/portfolio/#about'>
           About
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/#portfolio'>
+        <Link className='p-4 hover:text-green-500' to='/portfolio/#portfolio'>
           Portfolio
         </Link>
         <Link className='p-4 hover:text-green-500' to='/criteria'>
