@@ -108,7 +108,7 @@ const Nav = ({ onRouteChange }) => {
         </Link>
       </div>
       <div onClick={() => onRouteChange('signin')} className='pr-4'>
-        <Link to='/' className='hover:text-green-500' id='signOutLg'>
+        <Link to='/portfolio' className='hover:text-green-500' id='signOutLg'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
