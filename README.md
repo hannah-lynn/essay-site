@@ -19,4 +19,4 @@ Some useful features are:
 
 Scroll to top - this component scrolls to the top of the page when it is rendered, I found that it was opening each page at the bottom, previously.
 
-Navigation - The nav bar changes from words to icons when the screen width gets smaller. This is great for mobiles/tablets, and makes good use of React Hooks useEffect.
+Navigation - The nav bar changes from words to icons when the browser width decreases. This is great for mobiles/tablets, and makes good use of React Hooks useEffect.
