@@ -49,7 +49,7 @@ class App extends Component {
               <Switch>
                 <Route
                   exact
-                  path='/'
+                  path='/portfolio'
                   render={() => (
                     <Fragment>
                       <Header onRouteChange={this.onRouteChange} />
