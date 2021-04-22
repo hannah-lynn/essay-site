@@ -3,7 +3,7 @@
 username: hello
 password: world
 
-Password protected portfolio website to display essays and link to criteria using react tabs.
+A fully responsive, password protected, portfolio website to display essays and link to criteria using react tabs.
 
 I created this site for my apprenticeship in Software development, I wanted to display my essays in website format, so criteria could be linked to, and easily found. I also wanted to solve the issue of having image that were too small on a word document, on the website, yu can hove and the image will grow larger so you can read it.
 
