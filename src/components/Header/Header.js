@@ -25,7 +25,7 @@ function Header({ onRouteChange }) {
         </p>
         <div className='options'>
           <Link
-            to='/#about'
+            to='/portfolio/#about'
             id='btn-1'
             className='hidden md:mr-10 sm:mr-2 btn hover:bg-green-400'
           >
