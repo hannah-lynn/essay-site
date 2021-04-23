@@ -81,7 +81,7 @@ const SystemLogs = () => {
             <img
               src={three}
               alt='Trello'
-              className='rounded-lg w-3/6 float-right ml-8 mb-10 mt-8'
+              className='rounded-lg w-3/6 float-right ml-8 mb-10 mt-8 transform md:hover:scale-150'
             />
             <p className='w-6/6 mt-8 md:ml-10 md:mr-10'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
