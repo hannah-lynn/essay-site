@@ -20,12 +20,12 @@ function Header({ onRouteChange }) {
       <div className='modal absolute top-2/4 left-1/2 transform -translate-x-2/4  -translate-y-2/4 sm:max-w-md bg-white opacity-70 rounded-3xl shadow-lg font-mono inline-flex flex-col items-center md:px-12 py-6 sm: px-4 border-black border-4'>
         <p className='message'>Hello</p>
         <p className='message'>
-          <span className='text_1'>Welcome to my portfolio</span>
+          <span className='text_1'>Welcome to my essay site</span>
           <span className='text_2'>Do you want to see more?</span>
         </p>
         <div className='options'>
           <Link
-            to='/portfolio/#about'
+            to='/essay-site/#about'
             id='btn-1'
             className='hidden md:mr-10 sm:mr-2 btn hover:bg-green-400'
           >

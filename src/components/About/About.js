@@ -14,11 +14,13 @@ const About = () => {
           className='md:rounded-full md:w-1/6 sm:rounded-lg sm:w-2/6 float-left mr-8 mb-5 md:ml-20'
         />
         <p className='w-6/6 md:ml-20 md:mr-20 lg:mt-8 md:mt-0'>
-          After teaching myself some of the basics of HTML5, CSS3 and JavaScript
-          over a few months I started Web Development role in October 2020. Here
-          I work frontend and backend, using mySQL, Angular, Typescript, and the
-          backend is an in house framework. This portfolio site is built using
-          React with Tailwind CSS.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
+          deleniti dolore cumque similique. Enim eos eligendi laudantium eum
+          voluptate? Natus, excepturi? Corporis eveniet cumque eaque labore
+          eligendi quisquam at nobis? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Laborum, voluptas. Quos alias fugit illum
+          repellendus velit soluta odio, placeat cumque sit at beatae animi sint
+          quae blanditiis minima natus laudantium.
         </p>
       </div>
     </div>

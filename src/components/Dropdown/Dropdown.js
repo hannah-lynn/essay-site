@@ -38,9 +38,9 @@ const Dropdown = ({ isOpen, toggle }) => {
       </Link>
       <Link
         className='p-4 font-bold text-gray-600 hover:text-black'
-        to='/#portfolio'
+        to='/#essays'
       >
-        Portfolio
+        Essays
       </Link>
       <div className='pt-3 pb-5'>
         <Link className='p-4 font-bold text-gray-600 hover:text-black' to='/'>

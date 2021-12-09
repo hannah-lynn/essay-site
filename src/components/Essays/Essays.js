@@ -2,7 +2,7 @@ import React from 'react';
 import code from './code.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
-const Portfolio = () => {
+const Essays = () => {
   return (
     <div
       className='lg:justify-center lg:flex py-20 mt-10 md:w-full md:grid md:h-full md:place-items-center bg-pattern'
@@ -55,4 +55,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Essays;

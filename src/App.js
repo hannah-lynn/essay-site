@@ -5,12 +5,13 @@ import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import Footer from './components/Footer';
 import About from './components/About/About';
-import Portfolio from './components/Portfolio/Portfolio';
+import Essays from './components/Essays/Essays';
 import Signin from './components/SignIn/SignIn';
 import SystemLogs from './Pages/System Logs/SystemLogs';
 import PopupPreview from './Pages/Popup Preview/PopupPreview';
 import ScrollToTop from './components/ScrollToTop';
 import Criteria from './Pages/Criteria/criteria';
+import Stack from './components/Tech Stack/stack';
 
 class App extends Component {
   constructor() {
@@ -49,12 +50,13 @@ class App extends Component {
               <Switch>
                 <Route
                   exact
-                  path='/portfolio'
+                  path='/essay-site'
                   render={() => (
                     <Fragment>
                       <Header onRouteChange={this.onRouteChange} />
                       <About />
-                      <Portfolio />
+                      <Essays />
+                      <Stack />
                     </Fragment>
                   )}
                 />

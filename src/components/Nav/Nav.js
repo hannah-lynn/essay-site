@@ -25,7 +25,7 @@ const Nav = ({ onRouteChange }) => {
       <div className={`${isMobile ? '' : 'hidden'} flex pr-8`}>
         <Link
           className='p-4 hover:text-green-500 flex-row'
-          to='/portfolio/#home'
+          to='/essay-site/#home'
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -58,7 +58,7 @@ const Nav = ({ onRouteChange }) => {
             />
           </svg>
         </Link>
-        <Link className='p-4 hover:text-green-500 flex-row' to='/#portfolio'>
+        <Link className='p-4 hover:text-green-500 flex-row' to='/#essays'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
@@ -94,21 +94,21 @@ const Nav = ({ onRouteChange }) => {
         </Link>
       </div>
       <div className={`${isMobile ? 'hidden' : ''} pr-8`}>
-        <Link className='p-4 hover:text-green-500' to='/portfolio/#home'>
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#home'>
           Home
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/portfolio/#about'>
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#about'>
           About
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/portfolio/#portfolio'>
-          Portfolio
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#essays'>
+          Essays
         </Link>
         <Link className='p-4 hover:text-green-500' to='/criteria'>
           Criteria
         </Link>
       </div>
       <div onClick={() => onRouteChange('signin')} className='pr-4'>
-        <Link to='/portfolio' className='hover:text-green-500' id='signOutLg'>
+        <Link to='/essays' className='hover:text-green-500' id='signOutLg'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
