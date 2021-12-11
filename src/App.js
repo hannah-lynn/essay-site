@@ -11,7 +11,6 @@ import SystemLogs from './Pages/System Logs/SystemLogs';
 import PopupPreview from './Pages/Popup Preview/PopupPreview';
 import ScrollToTop from './components/ScrollToTop';
 import Criteria from './Pages/Criteria/criteria';
-import Stack from './components/Tech Stack/stack';
 
 class App extends Component {
   constructor() {
@@ -56,7 +55,6 @@ class App extends Component {
                       <Header onRouteChange={this.onRouteChange} />
                       <About />
                       <Essays />
-                      <Stack />
                     </Fragment>
                   )}
                 />

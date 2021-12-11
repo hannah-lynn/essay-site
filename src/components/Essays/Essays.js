@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Essays = () => {
   return (
     <div
-      className='lg:justify-center lg:flex py-20 mt-10 md:w-full md:grid md:h-full md:place-items-center bg-pattern'
+      className='flex flex-col lg:flex-row justify-center py-20 mt-10 md:h-full md:place-items-center items-center bg-pattern'
       id='essays'
     >
       {/* card one */}
