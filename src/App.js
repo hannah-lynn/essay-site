@@ -50,7 +50,7 @@ class App extends Component {
               <Switch>
                 <Route
                   exact
-                  path='/'
+                  path='/essay-site'
                   render={() => (
                     <Fragment>
                       <Header onRouteChange={this.onRouteChange} />

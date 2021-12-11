@@ -23,7 +23,10 @@ const Nav = ({ onRouteChange }) => {
       role='navigation'
     >
       <div className={`${isMobile ? '' : 'hidden'} flex pr-8`}>
-        <Link className='p-4 hover:text-green-500 flex-row' to='/#home'>
+        <Link
+          className='p-4 hover:text-green-500 flex-row'
+          to='/essay-site/#home'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
@@ -39,7 +42,10 @@ const Nav = ({ onRouteChange }) => {
             />
           </svg>
         </Link>
-        <Link className='p-4 hover:text-green-500 flex-row' to='/#about'>
+        <Link
+          className='p-4 hover:text-green-500 flex-row'
+          to='/essay-site/#about'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
@@ -55,7 +61,10 @@ const Nav = ({ onRouteChange }) => {
             />
           </svg>
         </Link>
-        <Link className='p-4 hover:text-green-500 flex-row' to='/#essays'>
+        <Link
+          className='p-4 hover:text-green-500 flex-row'
+          to='/essay-site/#essays'
+        >
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
@@ -91,13 +100,13 @@ const Nav = ({ onRouteChange }) => {
         </Link>
       </div>
       <div className={`${isMobile ? 'hidden' : ''} pr-8`}>
-        <Link className='p-4 hover:text-green-500' to='/#home'>
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#home'>
           Home
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/#about'>
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#about'>
           About
         </Link>
-        <Link className='p-4 hover:text-green-500' to='/#essays'>
+        <Link className='p-4 hover:text-green-500' to='/essay-site/#essays'>
           Essays
         </Link>
         <Link className='p-4 hover:text-green-500' to='/criteria'>
@@ -105,7 +114,7 @@ const Nav = ({ onRouteChange }) => {
         </Link>
       </div>
       <div onClick={() => onRouteChange('signin')} className='pr-4'>
-        <Link to='/#' className='hover:text-green-500' id='signOutLg'>
+        <Link to='/essay-site' className='hover:text-green-500' id='signOutLg'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             className='h-10 w-10 text-gray-600'
