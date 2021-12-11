@@ -6,7 +6,7 @@ const Essays = () => {
   return (
     <div
       className='lg:justify-center lg:flex py-20 mt-10 md:w-full md:grid md:h-full md:place-items-center bg-pattern'
-      id='portfolio'
+      id='essays'
     >
       {/* card one */}
       <div className='m-2 font-sans leading-normal transform hover:scale-105 '>
